@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; margin-top: 80px;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="info" role="navigation">
+    <div><img src="./images/logo-bonus.svg" alt=""></div>
+    <div class="score-board">
+      <p>SCORE</p>
+      <p id="score">12</p>
+    </div>
+  </div>
+  <div class="play">
+    <div class="gunting">
+      <div><img src="./images/icon-scissors.svg" alt="scissors"></div>
+    </div>
+    <div class="paper">
+      <div class="cyan1"><div class="cyan2"><img src="./images/icon-spock.svg" alt="spock"></div></div>
+      <div class="paper1"><div class="paper2"><img src="./images/icon-paper.svg" alt="paper"></div></div>
+    </div>
+    <div class="rock">
+      <div class="cicak1"><div class="cicak2"><img src="./images/icon-lizard.svg" alt="lizard"></div></div>
+      <div class="rock1"><div class="rock2"><img src="./images/icon-rock.svg" alt="rock"></div></div>
+    </div>
+  </div>
+  <div class="black-screen"></div>
+
+  <!-- After Choose Card -->
+    <div class="flex3">
+      <h2>YOU PICKED</h2>
+      <h2>THE HOUSE PICKED</h2>
+    </div>
+    <div class="picked">
+        <div class="hitam-screen gambar">
+          <div>
+            <img src="" alt="">
+          </div>
+    </div>
+  
+      <div class="hitam-screen house">
+        <div>
+          <img src="" alt="">
+        </div>
+      </div>
+  </div>
+  <div class="winMessage">
+    <h1>YOU WIN</h1>
+    <div id="playAgain">PLAY AGAIN</div>
+  </div>
+  <div class="rules">
+    <div class="rules-nav">
+      <h1>RULES</h1>
+      <div id="byClose">×</div>
+    </div>
+      <img src="./images/image-rules-bonus.svg" alt="">
+  </div>
+  <div class="play-rules">
+    RULES
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.instagram.com/razhaos/">Razha Jamsik Syah</a>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
